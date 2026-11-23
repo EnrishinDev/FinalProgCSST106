@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Full-faced', 'Half-faced', 'Invalid', 'motorcycle-rider', 'not wearing helmet']
+
+roboflow:
+  workspace: data-science-3-m1fa2data-preprocessing-5vgxq
+  project: motorcycle-and-helmet-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data-science-3-m1fa2data-preprocessing-5vgxq/motorcycle-and-helmet-detection/dataset/1
